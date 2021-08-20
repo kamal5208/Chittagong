@@ -1,0 +1,7 @@
+2021-08-13 17:05:05.689 [main][6218] INFO  automation_test.CalculateMonthlyPayment - Browser is successfully initiated with the URL:https://www.mortgagecalculator.org/
+2021-08-13 17:05:05.974 [main][6503] DEBUG page_objects.NavigationBar - Entered Home price is:300000
+2021-08-13 17:05:06.274 [main][6803] DEBUG page_objects.NavigationBar - Entered down payment is:60000
+2021-08-13 17:05:06.708 [main][7237] DEBUG page_objects.NavigationBar - Click on the Down Payment in Dollar
+2021-08-13 17:05:06.866 [main][7395] DEBUG page_objects.NavigationBar - Entered loan amount is:240000
+2021-08-13 17:05:07.140 [main][7669] DEBUG page_objects.NavigationBar - Entered interest rate is:3
+2021-08-13 17:05:11.585 [main][12114] INFO  automation_test.CalculateMonthlyPayment - Browser successfully close
