@@ -1,19 +1,19 @@
-2021-08-20 12:10:02.321 [main][6130] INFO  automation_test.CalculateMonthlyPayment - Browser is successfully initiated with the URL:https://www.mortgagecalculator.org/
-2021-08-20 12:10:02.637 [main][6446] DEBUG page_objects.NavigationBar - Entered Home price is:300000
-2021-08-20 12:10:02.958 [main][6767] DEBUG page_objects.NavigationBar - Entered down payment is:60000
-2021-08-20 12:10:03.363 [main][7172] DEBUG page_objects.NavigationBar - Click on the Down Payment in Dollar
-2021-08-20 12:10:03.512 [main][7321] DEBUG page_objects.NavigationBar - Entered loan amount is:240000
-2021-08-20 12:10:03.800 [main][7609] DEBUG page_objects.NavigationBar - Entered interest rate is:3
-2021-08-20 12:10:08.477 [main][12286] INFO  automation_test.CalculateMonthlyPayment - Browser successfully close
-2021-08-20 12:10:11.431 [main][15240] INFO  automation_test.CalculateRealApr - Browser is successfully initiated with the URL:https://www.mortgagecalculator.org/
-2021-08-20 12:10:17.350 [main][21159] INFO  automation_test.CalculateRealApr - Browser close successfully
-2021-08-20 12:10:17.377 [main][21186] INFO  api_test.GetTestWithPathVariable - ------------End Test:Attempt to retrieve User with Invalid Id
-2021-08-20 12:10:19.742 [main][23551] DEBUG api_test.GetTestWithPathVariable - {
+2021-09-06 20:27:32.285 [main][5368] INFO  automation_test.CalculateMonthlyPayment - Browser is successfully initiated with the URL:https://www.mortgagecalculator.org/
+2021-09-06 20:27:32.407 [main][5490] DEBUG page_objects.NavigationBar - Entered Home price is:300000
+2021-09-06 20:27:32.605 [main][5688] DEBUG page_objects.NavigationBar - Entered down payment is:60000
+2021-09-06 20:27:32.861 [main][5944] DEBUG page_objects.NavigationBar - Click on the Down Payment in Dollar
+2021-09-06 20:27:32.953 [main][6036] DEBUG page_objects.NavigationBar - Entered loan amount is:240000
+2021-09-06 20:27:33.131 [main][6214] DEBUG page_objects.NavigationBar - Entered interest rate is:3
+2021-09-06 20:27:36.039 [main][9122] INFO  automation_test.CalculateMonthlyPayment - Browser successfully close
+2021-09-06 20:27:38.429 [main][11512] INFO  automation_test.CalculateRealApr - Browser is successfully initiated with the URL:https://www.mortgagecalculator.org/
+2021-09-06 20:27:43.086 [main][16169] INFO  automation_test.CalculateRealApr - Browser close successfully
+2021-09-06 20:27:43.117 [main][16200] INFO  api_test.GetTestWithPathVariable - ------------End Test:Attempt to retrieve User with Invalid Id
+2021-09-06 20:27:44.992 [main][18075] DEBUG api_test.GetTestWithPathVariable - {
     
 }
-2021-08-20 12:10:19.886 [main][23695] INFO  api_test.GetTestWithPathVariable - ------------End Test:Attempt to retrieve User with Invalid Id
-2021-08-20 12:10:19.895 [main][23704] INFO  api_test.GetTestWithPathVariable - -------API Test:Read(GET) Single User with Path variable
-2021-08-20 12:10:20.023 [main][23832] DEBUG api_test.GetTestWithPathVariable - {
+2021-09-06 20:27:45.072 [main][18155] INFO  api_test.GetTestWithPathVariable - ------------End Test:Attempt to retrieve User with Invalid Id
+2021-09-06 20:27:45.088 [main][18171] INFO  api_test.GetTestWithPathVariable - -------API Test:Read(GET) Single User with Path variable
+2021-09-06 20:27:45.150 [main][18233] DEBUG api_test.GetTestWithPathVariable - {
     "data": {
         "id": 2,
         "email": "janet.weaver@reqres.in",
@@ -26,9 +26,9 @@
         "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
     }
 }
-2021-08-20 12:10:20.625 [main][24434] INFO  api_test.GetTestWithPathVariable - ------------End Test:Read(GET) Single User with Path Variable
-2021-08-20 12:10:20.633 [main][24442] INFO  api_test.GetTestWithQueryParameter - -------API Test:Read(GET) ALL Users with Query Parameter
-2021-08-20 12:10:20.724 [main][24533] DEBUG api_test.GetTestWithQueryParameter - {
+2021-09-06 20:27:45.494 [main][18577] INFO  api_test.GetTestWithPathVariable - ------------End Test:Read(GET) Single User with Path Variable
+2021-09-06 20:27:45.494 [main][18577] INFO  api_test.GetTestWithQueryParameter - -------API Test:Read(GET) ALL Users with Query Parameter
+2021-09-06 20:27:45.572 [main][18655] DEBUG api_test.GetTestWithQueryParameter - {
     "page": 2,
     "per_page": 6,
     "total": 12,
@@ -82,12 +82,12 @@
         "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
     }
 }
-2021-08-20 12:10:20.749 [main][24558] INFO  api_test.GetTestWithQueryParameter - ------------End Test:Read(GET) All Users with query parameter
-2021-08-20 12:10:20.755 [main][24564] INFO  api_test.SimpleDeleteTest - -------API Test:Delete single user
-2021-08-20 12:10:21.087 [main][24896] DEBUG api_test.SimpleDeleteTest - 
-2021-08-20 12:10:21.087 [main][24896] INFO  api_test.SimpleDeleteTest - ------------End Test:Delete single user
-2021-08-20 12:10:21.091 [main][24900] INFO  api_test.SimpleGetTest - -------API Test:Read(GET) ALL Users
-2021-08-20 12:10:21.168 [main][24977] DEBUG api_test.SimpleGetTest - {
+2021-09-06 20:27:45.588 [main][18671] INFO  api_test.GetTestWithQueryParameter - ------------End Test:Read(GET) All Users with query parameter
+2021-09-06 20:27:45.588 [main][18671] INFO  api_test.SimpleDeleteTest - -------API Test:Delete single user
+2021-09-06 20:27:45.822 [main][18905] DEBUG api_test.SimpleDeleteTest - 
+2021-09-06 20:27:45.822 [main][18905] INFO  api_test.SimpleDeleteTest - ------------End Test:Delete single user
+2021-09-06 20:27:45.822 [main][18905] INFO  api_test.SimpleGetTest - -------API Test:Read(GET) ALL Users
+2021-09-06 20:27:45.885 [main][18968] DEBUG api_test.SimpleGetTest - {
     "page": 1,
     "per_page": 6,
     "total": 12,
@@ -141,30 +141,30 @@
         "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
     }
 }
-2021-08-20 12:10:21.189 [main][24998] INFO  api_test.SimpleGetTest - ------------End Test:Read(GET) All Users
-2021-08-20 12:10:21.195 [main][25004] INFO  api_test.SimplePatchTest - ------------API Test: Update(Patch) User's single field
-2021-08-20 12:10:21.347 [main][25156] DEBUG api_test.SimplePatchTest - User job: Officer
-2021-08-20 12:10:21.704 [main][25513] DEBUG api_test.SimplePatchTest - {
+2021-09-06 20:27:45.916 [main][18999] INFO  api_test.SimpleGetTest - ------------End Test:Read(GET) All Users
+2021-09-06 20:27:45.916 [main][18999] INFO  api_test.SimplePatchTest - ------------API Test: Update(Patch) User's single field
+2021-09-06 20:27:46.025 [main][19108] DEBUG api_test.SimplePatchTest - User job: Officer
+2021-09-06 20:27:46.292 [main][19375] DEBUG api_test.SimplePatchTest - {
     "job": "Officer",
-    "updatedAt": "2021-08-20T16:10:21.612Z"
+    "updatedAt": "2021-09-07T00:27:46.256Z"
 }
-2021-08-20 12:10:21.762 [main][25571] INFO  api_test.SimplePatchTest - ------------End Test: Update(Patch) user's single field
-2021-08-20 12:10:21.770 [main][25579] INFO  api_test.SimplePostTest - ------------API Test: Create a new user 
-2021-08-20 12:10:21.954 [main][25763] DEBUG api_test.SimplePostTest - New user name: Mrs. Tish Collier
-2021-08-20 12:10:21.957 [main][25766] DEBUG api_test.SimplePostTest - User job: Manager
-2021-08-20 12:10:22.214 [main][26023] DEBUG api_test.SimplePostTest - {
-    "name": "Mrs. Tish Collier",
-    "job": "Manager",
-    "id": "718",
-    "createdAt": "2021-08-20T16:10:22.179Z"
+2021-09-06 20:27:46.308 [main][19391] INFO  api_test.SimplePatchTest - ------------End Test: Update(Patch) user's single field
+2021-09-06 20:27:46.308 [main][19391] INFO  api_test.SimplePostTest - ------------API Test: Create a new user 
+2021-09-06 20:27:46.373 [main][19456] DEBUG api_test.SimplePostTest - New user name: Wilton Abernathy
+2021-09-06 20:27:46.373 [main][19456] DEBUG api_test.SimplePostTest - User job: Assistant
+2021-09-06 20:27:46.624 [main][19707] DEBUG api_test.SimplePostTest - {
+    "name": "Wilton Abernathy",
+    "job": "Assistant",
+    "id": "983",
+    "createdAt": "2021-09-07T00:27:46.570Z"
 }
-2021-08-20 12:10:22.223 [main][26032] INFO  api_test.SimplePostTest - ------------End Test: Create a new user 
-2021-08-20 12:10:22.228 [main][26037] INFO  api_test.SimplePutTest - ------------API Test: Update(PUT) User fields
-2021-08-20 12:10:22.246 [main][26055] DEBUG api_test.SimplePutTest - New user name: Suzi Beer
-2021-08-20 12:10:22.254 [main][26063] DEBUG api_test.SimplePutTest - User job: Orchestrator
-2021-08-20 12:10:22.527 [main][26336] DEBUG api_test.SimplePutTest - {
-    "name": "Suzi Beer",
-    "job": "Orchestrator",
-    "updatedAt": "2021-08-20T16:10:22.479Z"
+2021-09-06 20:27:46.640 [main][19723] INFO  api_test.SimplePostTest - ------------End Test: Create a new user 
+2021-09-06 20:27:46.640 [main][19723] INFO  api_test.SimplePutTest - ------------API Test: Update(PUT) User fields
+2021-09-06 20:27:46.686 [main][19769] DEBUG api_test.SimplePutTest - New user name: Scott Morar
+2021-09-06 20:27:46.686 [main][19769] DEBUG api_test.SimplePutTest - User job: Architect
+2021-09-06 20:27:46.921 [main][20004] DEBUG api_test.SimplePutTest - {
+    "name": "Scott Morar",
+    "job": "Architect",
+    "updatedAt": "2021-09-07T00:27:46.863Z"
 }
-2021-08-20 12:10:22.549 [main][26358] INFO  api_test.SimplePutTest - ------------End Test: Update(PUT) user fields
+2021-09-06 20:27:46.937 [main][20020] INFO  api_test.SimplePutTest - ------------End Test: Update(PUT) user fields
